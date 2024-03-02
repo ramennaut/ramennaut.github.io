@@ -5,7 +5,6 @@ permalink: '/now/'
 last_updated: 2024-03-03
 ---
 
-
 This is a now page inspired by [Derek Sivers](https://nownownow.com/about). This page was last updated `03 Mar 2024` from `Metro Manila, Philippines`.
 ## What's keeping me busy
 

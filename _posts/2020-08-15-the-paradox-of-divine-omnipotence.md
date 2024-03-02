@@ -7,7 +7,7 @@ published: true
 date: 2020-08-15
 ---
 
-## The problem of evil and suffering 
+### The problem of evil and suffering 
 
 The problem of suffering can rationally justify the argument for the validity of atheism if we base this on the existence of evil. **If God exists, then why does God allow people or animals to suffer?** Although not all atheists may think this way, it seems to be a popular claim enough for theists to have created a [whole field of discourse to philosophize this problem further](https://en.wikipedia.org/wiki/Religious_responses_to_the_problem_of_evil). We take, for example, what we call “unfriendly atheism,” which believes that [“no one is rationally justified in believing that the theistic God exists.”](https://www.jstor.org/stable/20009775) This atheistic identity stems from the premise that God is an omnipotent, omniscient, and omnibenevolent.
 
@@ -28,7 +28,7 @@ A theist might reject this argument for the validity of an unfriendly atheist’
 
 From a theistic point of view, the discourse which calls into question the existence of suffering in a world made by an almighty God filled with goodness is called [‘theodicy.’](https://en.wikipedia.org/wiki/Theodicy)
 
-## Experiencing suffering
+### Experiencing suffering
 
 The idea of theodicy involves an understanding of suffering, given that God exists, God is good, and God follows some standard of ethics. There are different versions of theodicy across various religions, but for this purposes, we will focus on the Christian response to the problem of suffering. There are also other arguments towards the same problem outside theistic religions. One such example is [cosmodicy](https://en.wiktionary.org/wiki/cosmodicy), which refers to the discourse involving the understanding of suffering given that nature is good. Another parallel is [anthropodicy](https://www.jstor.org/stable/1463312), which seeks to unite the goodness of humanity to the existence of evil, especially those which are human-made.
 
@@ -38,7 +38,7 @@ If my goal every day is to eat lunch at noon, then my body will get used to this
 
 The same is true even if I have never experienced the benefits of my goal. For example, if I have never tasted baked sushi in my entire life, but I have heard of the experience of tasting baked sushi from someone else, then I can develop a desire to eat baked sushi for lunch. This desire might be met with some sort of disappointment if I learn that the store is closed or the baked sushi is out of stock. However, this disappointment only exists because I know of the experience of eating baked sushi.
 
-## Suffering as a step towards flourishing
+### Suffering as a step towards flourishing
 
 In inquiring about God’s existence, Thomas Aquinas wrote, in his thesis entitled Summa Theologia, that Augustine once said: [“Since God is the highest good, He would not allow any evil to exist in His works, unless His omnipotence and goodness were such as to bring good even out of evil.”](https://www.logoslibrary.org/augustine/enchiridion/011.html) Aquinas suggested that [“this is part of the infinite goodness of God, that He should allow evil to exist, and out of it produce good.”](https://www.newadvent.org/summa/1002.htm#article3)
 
@@ -54,7 +54,7 @@ The problem does not end here. Even if we knew what God’s desire is. It is sti
 
 Aquinas would say yes. Ultimately, suffering is defined to be an experience of loss in terms of the desires of the heart. In his theodicy, Aquinas proposes that [“there is a connection between other desires of the heart and the innate deepest heart’s desire for God and shared union with God.”](https://doi.org/10.1093/acprof:oso/9780199277421.003.0014)
 
-## Suffering is the will of a benevolent God
+### Suffering is the will of a benevolent God
 
 [Elenore Stump argues that Aquinas’s response is problematic in two ways.](https://cct.biola.edu/limits-theodicy-eleonore-stump/) She claims that this theodicy is self-defeating such that it is counterintuitive to present a solution to suffering, which involves suffering as well. Secondly, she claims that Aquinas’s position is difficult to comprehend such that it relies on compartmentalizing suffering into an earthly struggle that could flourish in the afterlife. However, seeing that humans do not have the full ability to comprehend the afterlife, then some people might not even care about this eventual flourishing in comparison to the certain possibility of suffering, which they feel and understand right now.
 
