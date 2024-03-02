@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+    <title>{{ site.title }} | {{ page.title }}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="sticky-header">
+        <div class="brand pb-5">
+            <a class="px-5 display-4" href="/">{{ site.title }}</a>
+            <p class="px-5 lead">Working notes. Digital garden. Brain dump.</p>
+            <div class="px-5">
+                {% for item in site.data.navigation %}
+                <nav class="pr-2 d-inline d-lg-none">
+                    <a href="{{ item.href }}">{{ item.title }}</a>
+                </nav>
+                {% endfor %}
+            </div>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <div class="container-fluid px-5">
+        <div class="row">
+            <div class="col-3 sticky-sidebar d-none d-lg-block">
+                <nav>
+                    <ul class="pr-5 list-unstyled">
+                        {% for item in site.data.navigation %}
+                        <li>
+                            <a href="{{ item.href }}">{{ item.title }}</a>
+                            <p>{{ item.description }}</p>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-12 col-lg-6 main-content markdown-body">
+                {% include content.html %}
+                {% include recent-posts.html %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <div class="container-md text-center">
+            <section class="mb-4">
+                <!-- Social Icons -->
+                {% include social-icons.html %}
+            </section>
+            <p>This space was built in 2024 by <a href="https://github.com/ramennaut">@ramennaut</a> on top of <a href="https://github.com/pages-themes/primer">Primer</a> using <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://getbootstrap.com/">Bootstrap</a>. My deepest gratitude goes to the open-source community for the resources and tutorials that made this space possible.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap and JQuery integration for full functionality -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDzftNiW645fFoCI8Uhp7kSxJ+GdPmElUCeI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js" integrity="sha256-oBqWVfH9G+2Mv7AWLtAfc4O8i3E+GlIyxD+6VHiZcWs=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+
+</body>
+</html>

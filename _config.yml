@@ -1,0 +1,34 @@
+# Site settings
+title: NOTES BY LENZ
+email: mail@lenz.wiki
+url: "https://www.lenz.wiki"
+author: Lenz Dagohoy
+description: This digital space is a very public brain dump. It serves as a canvas for my thoughts, learnings, and experiments in a world cluttered with fleeting content -- a project born out of the need for a platform where chaos meets order.
+baseurl: '/'
+github_username: ramennaut
+language: en-US
+
+permalink: /:year/:month/:day/:title
+show_excerpts: true
+show_downloads: true
+
+# Build settings
+remote_theme: pages-themes/primer@v0.6.0
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"

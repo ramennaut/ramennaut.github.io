@@ -1,0 +1,9 @@
+{% if page.title and page.title != "Home" %}
+<h1><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
+{% endif %}
+{% if page.last_updated %}
+<div class="last-updated">
+    <p>Last updated: {{ page.last_updated | date: "%B %d, %Y" }}</p>
+</div>
+{% endif %}
+{{ content }}
