@@ -2,12 +2,10 @@
 layout: default
 title: Why I started learning more about GCRs
 excerpt: This article organizes my extensive notes and thoughts on global catastrophic risks (GCRs), offering a text-heavy, in-depth analysis based on a recent workshop.
-reading_time: 50 minutes
+reading_time: 10 minutes
 published: true
 date: 2024-01-29
 ---
-
-## Why I started learning more about GCRs
 
 I came to the Oxford workshop with minimal appreciation for the idea of global catastrophic risks (GCRs). At the time I applied, I had just began working at a [local think tank](https://www.linkedin.com/company/future-waves-collective/) doing *some* research on AI governance in the Philippines. AI risks, as I believe, was limited to:
 - Issues of bias in training leading to discrimination (i.e., since AI is trained on real world data then it is very likely that AI will carry over the same biases and bigot tendencies)

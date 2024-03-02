@@ -7,10 +7,9 @@ published: true
 date: 2024-01-29
 ---
 
-## Key takeaways from the Oxford x-risk workshop
-
 Given that it was an x-risk workshop, the scope of the materials and talks really emphasized GCRs. While I do have a slight bias on AI coming to the workshop, I want to include some of the things I learned about bio-risks in this article.
-## On AI risks
+
+### On AI risks
 *See this [AI Safety Map](https://aisafety.world/) for a full view of the AI safety landscape globally.*
 
 > Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.
@@ -119,7 +118,8 @@ To become an AI safety researcher, being proactive is key.
 - **Optimize your effort/outcome ratio following the 20/80 rule.** Drop bad hands. Don't aim to impress, just aim to solve the problems. Distractions and minor goals can make you lose focus so make sure you keep yourself aligned. Focus on the core difficulty, not just on the "merely useful."
 
 - **Hunt for good thought patterns.** Learn from many people. Read what other people are not reading, and then keep adjusting your course.
-## On bio-risk (bonus!)
+
+### On bio-risk (bonus!)
 *See this [map of biosecurity interventions](https://forum.effectivealtruism.org/posts/npNt43QRnaRNRixXK/map-of-biosecurity-interventions) for a view of what people are working on so far.*
 
 Global catastrophic bio-risks (GCBRs) is part of the main discussion topic so it would be a disservice not to include my notes on it. Admittedly, this was the first time I immersed myself into reading up on bio-risks so it's a bit more introductory. This article on the [on-ramps model into biosecurity](https://forum.effectivealtruism.org/posts/QeEgktwh2FQyot9Jw/on-ramps-into-biosecurity-a-model) was shared to me and might be useful for people who are considering a career on this field.
@@ -170,7 +170,7 @@ A speaker emphasized the importance of certain underrated priorities, especially
 - Spend time with people you want to be more like (you are the average of the people you spend the most time with)
 - Set up a reflection process that works for you
 
-## What now after GCP?
+### What now after GCP?
 
 I've gained a lot of momentum from attending GCP. I've always felt lost and distracted in terms of what I want to do, but I want to be more intentional and focused. I do feel like I've wasted a lot of my good years focusing on the wrong things. More concretely, I want to commit myself to studying more about GCRs and involving myself in the global scene. If I were to start fresh today, I'd start with being able to effectively articulate myself.
 
