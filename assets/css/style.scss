@@ -10,6 +10,8 @@ $bg-color: #F8FAF5;
 $header-color: #2A2A2A;
 $text-color: #2A2A2A;
 $link-color: #6B9C82;
+$select-color: #B4D58D;
+$border-color: #6B9C82;
 
 $interface-font: 'Space Grotesk', sans-serif;
 $header-font: 'Space Grotesk', sans-serif;
@@ -27,9 +29,6 @@ $font-standard: 1rem;
 $font-large: 2rem;
 $sticky-z-index: 1020;
 
-$opacity-start: 1;
-$opacity-end: 0;
-
 /* Set function for converting hex color to rgba */
 @function hex-to-rgba($hex, $opacity) {
     $r: red($hex);
@@ -45,14 +44,14 @@ $opacity-end: 0;
     font-size: $size;
 }
 
-@mixin gradient-background($start-color, $end-color, $start-opacity: 1, $end-opacity: 0) {
-    background: linear-gradient(to bottom, #{hex-to-rgba($start-color, $start-opacity)} 75%, #{hex-to-rgba($end-color, $end-opacity)} 100%);
+@mixin gradient-background($start-color, $end-color, $start-opacity, $end-opacity) {
+    background: linear-gradient(to bottom, #{hex-to-rgba($start-color, $start-opacity)} 85%, #{hex-to-rgba($end-color, $end-opacity)} 100%);
 }
 
 /* Global styles */
 html, body {
     position: relative;
-    min-height: 100%;
+    min-height: 100vh;
     margin: 0;
     background-color: $bg-color;
     color: $text-color;
@@ -72,11 +71,16 @@ html, body {
     .list-unstyled {
         list-style-type: none;
     }
+
+    ::selection {
+        background: $select-color;
+    }
 }
 
 /* Header styles */
 header {
-    @include gradient-background($bg-color, $bg-color, $opacity-start, $opacity-end);
+    height: 20vh;
+    @include gradient-background($bg-color, $bg-color, 1, 0);
 
     .brand {
         a {
@@ -85,10 +89,6 @@ header {
         
         p {
             @include font-style($text-font, normal, $font-standard);
-        }
-
-        nav a {
-            @include font-style($header-font, normal, $font-standard);
         }
     }
 }
@@ -114,6 +114,21 @@ header {
     }
 }
 
+.blog-style {
+    a:link{
+        text-decoration: underline;
+    }
+
+    .link-preview {
+        position: absolute;
+        z-index: 1000;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 10px;
+      }      
+}
+
+
 /* Sidebar styles */
 .col-3 {
     a {
@@ -135,7 +150,7 @@ header {
 
 /* Footer styles */
 footer {
-    @include gradient-background($bg-color, $bg-color, $opacity-start, $opacity-end);
+    @include gradient-background($bg-color, $bg-color, 1, 0);
     padding: $padding-large $padding-large;
     position: relative;
     margin-top: auto;
@@ -154,5 +169,20 @@ footer {
     
     p {
         font-size: 12px;
+    }
+}
+
+/* Markdown table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th {
+        font-weight: bold;
+    }
+
+    td, th {
+        border: 1px solid $border-color;
+        background-color: $bg-color;
     }
 }
