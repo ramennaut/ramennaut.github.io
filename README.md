@@ -9,6 +9,12 @@
 
 This is the repository for my [digital space](https://www.lenz.wiki/) which is hosted on Github Pages and built using Jekyll. The site is a *very public* brain dump, since microblogs don’t seem to do the trick anymore. This space serves as a canvas for my thoughts, learnings, and experiments in a world cluttered with fleeting content -- a project born out of the need for a platform where chaos meets order.
 
+<div id="features">
+    <img src="_includes/gifs/site-features.gif">
+</div>
+
+The site features a [/now](https://www.lenz.wiki/now/), [/next](https://www.lenz.wiki/next/), and [/archive](https://www.lenz.wiki/archive/) page for present, future, and past works, respectively. It also features a matcha-like color scheme because I like matcha. Highlights, preformatted code blocks, and markdown tables adhere to this color scheme.
+
 ## Project Structure
 ```
 .
@@ -70,6 +76,10 @@ You can go to https://www.lenz.wiki to access the wesbite; but if you ever want 
     After the site builds, open a web browser and go to http://localhost:4000 to see your site in action. You should now be viewing your local version of the site.
 
 If you make any changes to the site's source files, Jekyll will automatically rebuild the site, allowing you to see the updates by refreshing your browser.
+
+## Future developments
+
+I am excited about the future of this code base, with plans to further develop and separate the theme and color scheme for broader use, including potential integration with Obsidian. This will allow for more personalized and efficient user experiences. If you're interested in contributing or want to stay updated on these developments, feel free to star the repository. More updates will be posted in the future, and I'm always open to collaboration and feedback.
 
 ## Reporting a bug
 Found a bug? I'd love to squash it! Please report it by [opening an issue on the GitHub repository](https://github.com/ramennaut/ramennaut.github.io/issues) with a detailed description of the problem and steps to reproduce it. Screenshots or screen recordings are highly appreciated for a quicker resolution.

@@ -11,4 +11,4 @@ I'm like a classically-trained pop star -- except instead of classical music, I 
 
 This space is for my *very public* brain dump since microblogs don’t seem to do the trick anymore. A lot of the things I wrote and dumped here may not make sense. Please take note that unless I specifically shared it to you or publicly posted it on social media, I probably just wrote it for myself, following my *own* train of thought.
 
-If you find yourself interested in [the same things I care about](/next), feel free to [drop me a message](mailto:mail@lenz.wiki).
+If you find yourself interested in [the same things I care about](/next), feel free to drop me a message at [mail@lenz.wiki](mailto:mail@lenz.wiki).
