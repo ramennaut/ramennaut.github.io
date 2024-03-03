@@ -3,30 +3,25 @@
 @import "{{ site.theme }}"; // Import the site theme configured in _config.yml
 
 /* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 /* Set global variables for colors, fonts, and dimensions */
 $bg-color: #F8FAF5;
-$header-color: #2A2A2A;
 $text-color: #2A2A2A;
-$link-color: #6B9C82;
+$subtitle-color: #7F9588;
+$accent-color: #6B977F;
 $select-color: #B4D58D;
-$border-color: #6B9C82;
+$block-color: #E7F1DB;
+$code-color: #4B6155;
 
 $interface-font: 'Space Grotesk', sans-serif;
 $header-font: 'Space Grotesk', sans-serif;
 $text-font: 'Inter', sans-serif;
+$monospace-font: 'JetBrains Mono', 'Consolas', sans-serif;
 
-$padding-small: 0.5em;
-$padding-medium: 1em;
-$padding-large: 2em;
-
-$margin-small: 0.5em;
-$margin-medium: 1em;
-$margin-large: 2em;
-
+$padding-standard: 1em;
+$margin-standard: 1em;
 $font-standard: 1rem;
-$font-large: 2rem;
 $sticky-z-index: 1020;
 
 /* Set function for converting hex color to rgba */
@@ -61,11 +56,10 @@ html, body {
     
     h1, h2, h3, h4, h5, h6 {
         @include font-style($header-font, 700);
-        color: $header-color;
     }
     
     a {
-        color: $link-color;
+        color: $accent-color;
     }
     
     .list-unstyled {
@@ -84,7 +78,7 @@ header {
 
     .brand {
         a {
-            @include font-style($header-font, normal, $font-large);
+            @include font-style($header-font, normal, $font-standard * 2);
         }
         
         p {
@@ -94,7 +88,7 @@ header {
 }
 
 .sticky-header {
-    padding: $padding-medium * 2 0;
+    padding: $padding-standard * 2 0;
     position: sticky;
     top: 0;
     z-index: $sticky-z-index;
@@ -110,24 +104,9 @@ header {
     .row {
         display: flex;
         flex-direction: row;
-        margin-bottom: $margin-small;
+        margin-bottom: $margin-standard / 2;
     }
 }
-
-.blog-style {
-    a:link{
-        text-decoration: underline;
-    }
-
-    .link-preview {
-        position: absolute;
-        z-index: 1000;
-        background-color: #fff;
-        border: 1px solid #ddd;
-        padding: 10px;
-      }      
-}
-
 
 /* Sidebar styles */
 .col-3 {
@@ -145,34 +124,21 @@ header {
     top: 20%;
     height: fit-content;
     overflow-y: auto;
-    padding: $padding-medium $padding-large 0 $padding-medium;
+    padding: $padding-standard $padding-standard * 2 0 $padding-standard;
 }
 
-/* Footer styles */
-footer {
-    @include gradient-background($bg-color, $bg-color, 1, 0);
-    padding: $padding-large $padding-large;
-    position: relative;
-    margin-top: auto;
-    bottom: 0;
-    width: 100%;
-  
-    .svg-icon {
-        padding: $padding-medium;
-        
-        svg {
-            width: 35px;
-            height: 35px;
-            fill: $link-color;
-        }
+/* Blog styles */
+.blog-style {
+    a:link{
+        text-decoration: underline;
     }
     
-    p {
-        font-size: 12px;
+    .subtitle {
+        color: $subtitle-color;
     }
 }
 
-/* Markdown table styles */
+/* Markdown styles */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -182,7 +148,46 @@ table {
     }
 
     td, th {
-        border: 1px solid $border-color;
+        border: 1px solid $accent-color;
         background-color: $bg-color;
+    }
+}
+
+pre, pre code, code {
+    font-family: $monospace-font;
+    background-color: $block-color !important;
+    color: $code-color;
+}
+
+/* Recent Posts Styles */
+.card-subtitle {
+    color: $subtitle-color;
+}
+
+.card-subtitle, .card-description {
+    font-size: $font-standard * 0.8;
+}
+
+/* Footer styles */
+footer {
+    @include gradient-background($bg-color, $bg-color, 1, 0);
+    padding: $padding-standard * 2 $padding-standard * 2;
+    position: relative;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+  
+    .svg-icon {
+        padding: $padding-standard;
+        
+        svg {
+            width: 35px;
+            height: 35px;
+            fill: $accent-color;
+        }
+    }
+    
+    p {
+        font-size: 12px;
     }
 }

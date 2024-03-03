@@ -2,7 +2,7 @@
 layout: default
 title: Why I started learning more about GCRs
 excerpt: This article organizes my extensive notes and thoughts on global catastrophic risks (GCRs), offering a text-heavy, in-depth analysis based on a recent workshop.
-reading_time: 10 minutes
+reading_time: 10 minute read
 published: true
 date: 2024-01-29
 ---
@@ -15,7 +15,7 @@ I came to the Oxford workshop with minimal appreciation for the idea of global c
 - Extreme polarization and political instability caused by unregulated AI (i.e., bigger echo chambers because of AI)
 ..and probably a lot more that I can't exactly articulate. Basically I was scared that [this Cambridge Analytica issue](https://www.rappler.com/technology/social-media/239606-cambridge-analytica-philippines-online-propaganda-christopher-wylie/) was going to happen again, but this time in a much larger scale. At least the way I see it, as a non-expert but an avid follower of the news, the Philippines is not exactly the strongest economy back in 2023 (and [it's arguably much worse in 2024](https://www.gmanetwork.com/news/money/economy/893830/philippines-seen-to-miss-economic-growth-targets-for-2023-2024-analysts/story/)). If anything, we are very vulnerable. To me, a large-scale misaligned agent going wild in an unstable economy is a recipe for disaster. This led me down a rabbit hole towards learning more about AI risk and GCRs in series of conversations within [my local EA community](https://www.effectivealtruism.ph/) and the people I met in GCP.
 
-### Initially, I just wanted to know why LMICs were not included in the conversation about global AI governance.
+## Initially, I just wanted to know why LMICs were not included in the conversation about global AI governance.
 
 Although I technically had an idea what AI risks are, I was also vastly misinformed about how AI works on an analytical level. Even though I read through [Bluedot Impact's AI Safety Alignment Course](https://www.effectivealtruism.ph/), I admittedly did not fully understand what a lot of the concepts actually meant.[^1] I was genuinely just concerned with the way AI is being used and developed in the current innovation scene[^2] could possible exacerbate the Philippines' socio-economic instability. So I applied to GCP with the the following questions in mind:
 1. What can developing countries learn from the US and UK when developing policies for AI alignment?
@@ -26,7 +26,7 @@ I do recognize that most of the work on AI safety is happening in the West, spec
 
 I wanted to know how we can contribute from halfway across the world. I wanted to know what we could do. I wanted to know who would be accountable should an AI cause massive harm to our economy. Do we remain as observers or should we do something about it?
 
-### Eventually, I realized how much bigger the risk actually is.
+## Eventually, I realized how much bigger the risk actually is.
 
 At least from personal conversations, I realize a lot of local AI or data experts do not actually consider that AI could be a much bigger risk to the point that it can be considered as a GCR. For a lot of the people I've talked to, existential AI risk seems too speculative -- and honestly, that's a valid sentiment. A professor once told me that all technologies get demonized when they are released. We think they are threats, but we couldn't be more wrong. We shouldn't be afraid of AI, but of the humans who enable these mere tools to be a cause for concern. I thought, *'well, that makes sense'*. By my understanding, AI is a program, and a program needs a programmer.
 
@@ -37,7 +37,7 @@ I know the effective altruism (EA) community thinks of it differently though whi
 
 Basically, we don't know what the impact of AI could be. Given the worst case scenario, it doesn't really hurt to try and spend our time working on preventing its impact. The idea is we hopefully never get to experience the worst case scenario we could imagine. AI is developing faster than we are adapting to it. This adaptability is also much worse in low-middle income countries (LMICs) where the digital divide is so wide. Simply put, we want a roadmap -- rules and plans -- for how AI should be used and developed to ensure that this technology is safe[^5] and fair.
 
-
+---
 
 [^1]: Note to self: Study this again and hopefully understand it the next time.
 [^2]: Admittedly, a lot of my concerns were based on hearsay which is not exactly reliable. My circle, both personal and professional, include people who are active in the local startup scene, and I hear a lot of the ideas they want to implement via AI. Not to name any names, but some of these ideas were just downright questionable to me.

@@ -3,9 +3,11 @@ layout: default
 title: Now
 permalink: '/now/'
 date: 2024-03-03
+location: Metro Manila, Philippines
 ---
 
-This is a now page inspired by [Derek Sivers](https://nownownow.com/about). This page was last updated `03 Mar 2024` from `Metro Manila, Philippines`.
+This is a now page inspired by [Derek Sivers](https://nownownow.com/about). This page was last updated `{{ page.date | date: "%d %B %Y" }}` from `{{ page.location }}`.
+
 ## What's keeping me busy
 
 - I'm on my penultimate year of undergraduate studies, pursuing a [humanities-focused program](https://www.ateneo.edu/soh/is/academics/ab-is), with majors in socio-anthropology and computer science, and a minor in humanitarian action. I've started writing my junior thesis on conditional cash transfer schemes.

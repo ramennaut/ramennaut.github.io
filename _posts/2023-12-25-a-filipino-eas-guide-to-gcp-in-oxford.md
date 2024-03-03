@@ -2,12 +2,12 @@
 layout: default
 title: A Filipino EA's guide to GCP in Oxford
 excerpt: Initially applying for the Global Challenges Project (GCP) in June 2023 for the July Oxford cohort, my journey took a turn as I ended up attending the first December cohort. This post details the rush of preparations in November and the personal interactions that convinced me to advance my participation.
-reading_time: 25 minutes
+reading_time: 25 minute read
 published: true
 date: 2023-12-25
 ---
 
-### What is GCP?
+## What is GCP?
 
 The Global Challenges Project (GCP) conducts intensive 3-day workshops for students, focusing on existential risk reduction, especially in the fields of AI and bio-risk. These workshops are primarily intended for students who are looking to concretize their next steps after participating.
 
@@ -17,7 +17,7 @@ It’s important to note that GCP operates under the assumption that there is a 
 
 For more information about their workshops, you can check out the [Global Challenges Project](https://www.globalchallengesproject.org/).
 
-#### Who can apply and who has applied?
+### Who can apply and who has applied?
 
 Students, both undergraduate and graduate, from anywhere in the world are welcome to apply. Note that [travel support is offered](https://globalchallengesproject.notion.site/Our-travel-support-policy-c330d566544943d29f4fcc7962bf3106) for Filipinos attending the Oxford workshop. Although travel support is not given automatically every time you request. This is further evaluated by the organizers. As of this writing, the following Filipinos have attended the workshop:
 
@@ -30,11 +30,11 @@ Students, both undergraduate and graduate, from anywhere in the world are welcom
 7. Lenz Dagohoy, December 2023 (Oxford, UK) (← it me)
 8. Rozenne Sola, December 2023 (Oxford, UK)
 
-#### How much should you know about x-risks before attending?
+### How much should you know about x-risks before attending?
 
 Participants are expected to have at least a basic understanding of what existential risks are and to have read some introductory materials on the topic. In my cohort, there were individuals who were quite new to x-risks and effective altruism (EA) at the time of the workshop, indicating that you don't need to be an expert to attend. Additionally, GCP provides pre-work materials that you will receive upon acceptance.
 
-### Any advice for applying?
+## Any advice for applying?
 
 GCP has developed [a comprehensive Notion page with advice for applying to their workshops](https://resources.globalchallengesproject.org/), which I highly recommend checking out.
 
@@ -44,13 +44,13 @@ I strongly advise applying when you find yourself at a point in your learning jo
 
 In my case, I applied to the GCP with a specific intention: to explore the role of the Global South in advancing the field of AI safety. During the interview, I made sure to substantiate this 'why' – explaining my motivation and the importance of this topic. I focused on this goal throughout the workshop, and this involved identifying the right people to talk to and knowing the most relevant questions to ask, as well as the key topics to discuss. This intentionality helped me make the most of the workshop experience.
 
-### I got in. What's next?
+## I got in. What's next?
 
 I assume you are reading this because you are planning to attend the Oxford workshop. I don’t know much about the Boston and Berkeley workshops but you can contact a past GCP participant who has attended those for insights on their experiences and advice.
 
 Regarding the UK visa application, note that the visa validity is 6 months. This means you can apply up to 5 months before your workshop date. While it's possible to complete the process within a month, I recommend starting at least 2 months in advance to organize all your paperwork. Applying only a month before, or even less as in my case, can be very risky. I was fortunate to secure a cheaper flight and had sufficient funds from my GCP travel support to opt for a priority visa service.
 
-#### How do I apply for a visa?
+### How do I apply for a visa?
 
 Applying for a UK visa can be a complex and daunting process, particularly when you're navigating it without the assistance of an agency. As I went through the visa application process independently, without hiring an agency, I'm unable to recommend any specific one. However, [I'm happy to detail the steps I followed to successfully apply for a UK visa on my own](https://docs.google.com/document/d/1p7bUWVqG94FZDROXUcrBpkwD6N6LbfWPf4pnIQvdlVs/edit#heading=h.tt6m33jnu0ym). [This page has everything about getting a UK visa as a standard visitor.](https://www.gov.uk/standard-visitor)
 
@@ -86,7 +86,7 @@ If you could pre-plan and pre-book a lot of what you want to do during your trip
 	
 	This is completely optional, but it’s a good-to-have if your airplane ticket doesn’t cover it. You can get cheap travel insurance from [AXA](https://www.axa.com.ph/products/travel-insurance) or even [VFS Global](https://www.vfsglobal.com/en/individuals/travel-insurance.html).
 
-#### How can I get around in the UK?
+### How can I get around in the UK?
 
 Getting from one place to another in the UK is pretty easy compared to the Philippines. If you’re traveling alone, then Google Maps is your friend. The most important thing you need to know is how to get from London to Oxford, and the answer is:
 * You can take the train, though it’s a bit pricier. There’s a direct train to Oxford via GWR from any of the main London terminals like Paddington or Reading. At peak, it can cost around GBP 34.00, and it may be better to book. Note that they have a real paper ticket. It’s not contactless. You can also reserve a train via 3rd party apps like Trainline for cheaper.
@@ -96,7 +96,7 @@ Aside from that, you can figure out most of it with Google Maps. Just remember, 
 
 Note that the UK is pretty cashless. I’d suggest to probably exchange max GBP 100.00 just in case of emergencies, and probably just bring some USD.
 
-#### How many days should I stay and where should I go?
+### How many days should I stay and where should I go?
 
 I’d suggest allotting time to recover from jetlag and to prepare your body for a 20+ hour flight before coming home.
 
