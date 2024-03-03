@@ -21,6 +21,7 @@ This is the repository for my [digital space](https://www.lenz.wiki/) which is h
 │
 ├── _config.yml              - Central configuration file
 ├── .gitignore               - Lists files excluded from version control
+├── CNAME                    - Specifies site access via custom domain
 ├── Gemfile                  - Specifies Ruby gem dependencies
 ├── Gemfile.lock             - Ensures consistent gem versions in builds
 ├── LICENSE                  - Contains the license of the project
