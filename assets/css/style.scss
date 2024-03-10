@@ -8,11 +8,10 @@
 /* Set global variables for colors, fonts, and dimensions */
 $bg-color: #F8FAF5;
 $text-color: #2A2A2A;
-$subtitle-color: #7F9588;
+$sub-color: #4B6155;
 $accent-color: #6B977F;
 $select-color: #B4D58D;
 $block-color: #E7F1DB;
-$code-color: #4B6155;
 
 $interface-font: 'Space Grotesk', sans-serif;
 $header-font: 'Space Grotesk', sans-serif;
@@ -134,7 +133,7 @@ header {
     }
     
     .subtitle {
-        color: $subtitle-color;
+        color: $sub-color;
     }
 }
 
@@ -156,12 +155,12 @@ table {
 pre, pre code, code {
     font-family: $monospace-font;
     background-color: $block-color !important;
-    color: $code-color;
+    color: $sub-color;
 }
 
 /* Recent Posts Styles */
 .card-subtitle {
-    color: $subtitle-color;
+    color: $sub-color;
 }
 
 .card-subtitle, .card-description {
