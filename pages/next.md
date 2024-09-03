@@ -17,7 +17,8 @@ Metro Manila's culinary scene is thriving, but finding plant-based, vegetarian, 
 - an interactive web map which enables users to locate plant-foward restaurants in Metro Manila;
 - an archive of how traditional Filipino fishes are being reinterpreted with plant-based proteins and ingredients;
 - how the Filipino taste is recreated with plant-based and Western culinary practices, given the Philippines' colonial history.
-I'm sort of working on this for my senior study, but I've decided to keep a more general focus (food security x food acceptability in urban Metro Manila).
+- 
+I'm sort of working on this for my senior study, but I've decided to keep a more general focus (food security & food acceptability in urban Metro Manila).
 
 ## AI safety in LMICs
 
