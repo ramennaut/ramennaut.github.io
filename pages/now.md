@@ -2,8 +2,8 @@
 layout: default
 title: Now
 permalink: /now/
-date: 2024-10-28
-location: Metro Manila, Philippines
+date: 2024-11-04
+location: Boston, MA
 ---
 
 This is a now page inspired by [Derek Sivers](https://nownownow.com/about). This page was last updated `{{ page.date | date: "%d %B %Y" }}` from `{{ page.location }}`.
@@ -12,8 +12,8 @@ This is a now page inspired by [Derek Sivers](https://nownownow.com/about). This
 
 - **Studying.** I'm on my final year of undergraduate studies, pursuing a [humanities-focused program](https://www.ateneo.edu/soh/is/academics/ab-is), majoring in socio-anthropology and computer science, and with a minor in humanitarian action.
 - **Writing.** My senior thesis is on mapping the urban food deserts in Metro Manila. My food hyperfixation led me to a rabbithole and here I am.
-- **Learning.** I'm auditing a few units at [CU Boulder](https://www.colorado.edu/). I'm also relearning AI/ML and recently joined [Whitebox Research's](https://www.facebook.com/WhiteBoxResearch) AI safety reading group.
-- **Organizing.** I'm organizing a Condor Camp iteration in Southeast Asia along with a few cool people. I'll maybe post an update on it soon.
+- **Learning.** I'm relearning AI/ML and recently joined [Whitebox Research's](https://www.facebook.com/WhiteBoxResearch) AI safety reading group.
+- **Field-building.** I'm organizing a Condor Camp iteration in Southeast Asia along with a few cool people. I'll maybe post an update on it soon.
 - **Working.** I still work part-time at my uni's startup incubator.
 
 ## What I'm obsessed about
